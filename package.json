@@ -1,0 +1,21 @@
+{
+  "name": "cv-analysis-server",
+  "version": "1.0.0",
+  "description": "Backend server for CV analysis application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "form-data": "^4.0.5",
+    "multer": "^1.4.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
